@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { CodeBackground } from "./code-background";
 import { TypedText } from "./typed-text";
@@ -18,7 +18,7 @@ const SOCIALS = [
   { label: "Instagram", href: "https://instagram.com", Icon: InstagramIcon },
 ];
 
-const fade = {
+const fade: Variants = {
   hidden: { opacity: 0, y: 18 },
   show: (i: number) => ({
     opacity: 1,
