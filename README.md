@@ -1,2 +1,1 @@
 # amitabhbhatnagar.com
-Personal Portfolio
